@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.mainContainer {
+    width: 1440px;
+    height: 1080px;
+    padding: 219px 256px 220px 256px;
+    background-color: #36384D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contentContainer {
+    background-color: #FFF;
+
+    width: 928px;
+    height: 641px;
+
+    border-radius: 36px;
+
+    flex-shrink: 0;
+    box-shadow: 0px 15px 60px 0px rgba(0, 0, 0, 0.25);
+    padding-top: 97px;
+    padding-left: 64px;
+    padding-bottom: 98px;
+    padding-right: 488px;
+
+    
+}
+
+.textContainer {
+    width: 376px;
+    height: 446px; 
+    
+    flex-shrink: 0;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.stayUpdate {
+    color: #242742;
+    font-feature-settings: 'liga' off, 'clig' off;
+
+    font-family: Roboto;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; 
+}
+
+.join {
+    color: #242742;
+    font-feature-settings: 'liga' off, 'clig' off;
+
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+
+    padding-top: 24px;
+}
+
+.checkbox {
+    display: flex;
+    flex-direction: column;
+    padding-top: 24px;
+}
+
+.checkboxText {
+    color: var(--Dark-Navy, #242742);
+    font-feature-settings: 'liga' off, 'clig' off;
+
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+
+    margin-top: 10px;
+}
+
+.email {
+    padding: 40px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    color: #242742;
+    font-feature-settings: 'liga' off, 'clig' off;
+
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; 
+}
+
+.emailInput {
+    width: 376px;
+    height: 56px;
+    flex-shrink: 0;
+    padding-right: 5px;
+    justify-content: flex-start;
+}
+
+.subscribeBTN {
+    background-color: #242742;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+.check {
+    width: 21px;
+    height: 21px;
+}
